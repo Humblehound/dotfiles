@@ -1,0 +1,16 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~', '~/.config']
+
+- link:
+    ~/.dotfiles: ''
+    ~/.minttyrc: minttyrc
+    ~/.gitconfig: gitconfig
+    ~/.zshrc: zshrc
+
+- shell:
+  - git update-submodules # after linking ~/.gitconfig
+  #symlink scripts for xfce panel to /usr/bin
