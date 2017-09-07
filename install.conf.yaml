@@ -9,8 +9,16 @@
     ~/.dotfiles: ''
     ~/.minttyrc: minttyrc
     ~/.gitconfig: gitconfig
+    ~/.gitconfig_local: gitconfig_local
     ~/.zshrc: zshrc
+    ~/.ssh/id_rsa: dotfiles_private/ssh/id_rsa
+    ~/.ssh/id_rsa.pub: dotfiles_private/ssh/id_rsa.pub
+    ~/.ssh/config: dotfiles_private/ssh/config
 
 - shell:
-  - git update-submodules # after linking ~/.gitconfig
-  #symlink scripts for xfce panel to /usr/bin
+  - git update-submodules
+
+#TODO:
+# Symlink ssh config to windows home
+# Symlink Intellij setting
+# Symlink ConEmu config

@@ -101,7 +101,3 @@
 # Allow local customizations in the .gitconfig_local file
 [include]
 	path = ~/.gitconfig_local
-[gerrit "default"]
-	host = advactfdev.com
-	port = 29418
-	user = lukaszmy
