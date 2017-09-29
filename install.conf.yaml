@@ -9,7 +9,7 @@
     ~/.dotfiles: ''
     ~/.minttyrc: minttyrc
     ~/.gitconfig: gitconfig
-    ~/.gitconfig_local: gitconfig_local
+    ~/.gitconfig_local: dotfiles_private/gitconfig_local
     ~/.zshrc: zshrc
     ~/.ssh/id_rsa: dotfiles_private/ssh/id_rsa
     ~/.ssh/id_rsa.pub: dotfiles_private/ssh/id_rsa.pub
