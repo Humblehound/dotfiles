@@ -96,7 +96,7 @@
 
 [core]
 	excludesfile = ~/.gitignore_global
-	autocrlf = input
+	autocrlf = true
 
 # Allow local customizations in the .gitconfig_local file
 [include]
