@@ -102,3 +102,16 @@ function serve() {
 
 # Mirror a website
 alias mirrorsite='wget -m -k -K -E -e robots=off'
+
+
+alias app='-p 3331 installer@localhost'
+alias if='-p 3332 installer@localhost'
+alias data='-p 3333 installer@localhost'
+alias med='-p 3334 installer@localhost'
+alias master='-p 3336 installer@localhost'
+
+alias ir='dp stop && dp rm -f && dp up -d'
+alias reset='ir && rm -rf /var/opt/adva/log/aos/nc/ || true'
+alias build_tool='python ~/Dev/aos-nc-tools/build/build_tool/'
+alias printpath='echo $PATH | tr -s ":" "\n"'
+

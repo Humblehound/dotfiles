@@ -7,8 +7,6 @@ source ~/.dotfiles/prompt.zsh
 
 source ~/.dotfiles/aliases.zsh
 
-source ~/.dotfiles/dotfiles_private/aliases
-
 source ~/.dotfiles/dotfiles_private/private_vars
 
 export PATH=$PATH:~/.dotfiles/dotfiles_private/bin
