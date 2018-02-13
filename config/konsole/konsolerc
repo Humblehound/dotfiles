@@ -1,0 +1,27 @@
+[Desktop Entry]
+DefaultProfile=Default.profile
+
+[Favorite Profiles]
+Favorites=Default.profile
+
+[KonsoleWindow]
+ShowAppNameOnTitleBar=false
+ShowMenuBarByDefault=false
+
+[MainWindow]
+Height 1080=1056
+Height 1200=452
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABz8AAAQgAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 1920=1855
+Window-Maximized 1050x1680=true
+Window-Maximized 1080x1920=true
+Window-Maximized 1080x2560=true
+Window-Maximized 1200x1920=true
+Window-Maximized 2160x3840=true
+
+[TabBar]
+TabBarUseUserStyleSheet=true
+TabBarUserStyleSheetFile=file:///home/humblehound/.dotfiles/config/konsole/konsole_style.css
+TabBarVisibility=ShowTabBarWhenNeeded
